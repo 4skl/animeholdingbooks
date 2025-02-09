@@ -1,71 +1,65 @@
 # animeholdingbooks README
 
-This is the README for your extension "animeholdingbooks". After writing up a brief description, we recommend including the following sections.
+"animeholdingbooks" is a Visual Studio Code extension that fetches random images of anime girls holding programming books from the GitHub repository "cat-milk/Anime-Girls-Holding-Programming-Books".
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+- Fetch a random image from the repository.
+- Fetch a random image from a specific category.
+- Display the image in a VS Code webview panel.
+- Refresh the image with a button click.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+This extension requires an internet connection to fetch images from the GitHub repository.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+This extension does not contribute any settings.
 
 ## Known Issues
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
+- API rate limits may be exceeded if too many requests are made in a short period.
+- Network errors may occur if there is an issue with the internet connection.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+Initial release of animeholdingbooks.
 
 ---
 
-## Following extension guidelines
+## Commands
 
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
+### `animeholdingbooks.random`
 
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
+Fetches and displays a random image from the "Anime-Girls-Holding-Programming-Books" GitHub repository. If a webview panel is already open, it will refresh the image in the panel.
 
-## Working with Markdown
+### `animeholdingbooks.randomFromCategory`
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+Fetches and displays a random image from a specific category (directory) within the "Anime-Girls-Holding-Programming-Books" GitHub repository. If a webview panel is already open, it will refresh the image in the panel.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## Development
 
-## For more information
+### Commands
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+- `npm run compile`: Compile the extension.
+- `npm run watch`: Watch for changes and recompile.
+- `npm run package`: Package the extension for publishing.
+- `npm run lint`: Run ESLint to check for code issues.
+- `npm run test`: Run tests using the VS Code test framework.
+
+### Running the Extension
+
+1. Clone the repository.
+2. Run `npm install` to install dependencies.
+3. Open the project in VS Code.
+4. Press `F5` to open a new VS Code window with the extension loaded.
+
+### Publishing the Extension
+
+1. Run `npm run package` to create a `.vsix` file.
+2. Use the `vsce` tool to publish the extension to the Visual Studio Code Marketplace.
 
 **Enjoy!**
