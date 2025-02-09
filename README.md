@@ -1,4 +1,4 @@
-# animeholdingbooks README
+# Anime Holding Books VS Code Extension
 
 "animeholdingbooks" is a Visual Studio Code extension that fetches random images of anime girls holding programming books from the GitHub repository "cat-milk/Anime-Girls-Holding-Programming-Books".
 
