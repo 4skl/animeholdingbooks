@@ -3,6 +3,8 @@
   "displayName": "animeholdingbooks",
   "description": "Show a random picture from https://github.com/cat-milk/Anime-Girls-Holding-Programming-Books/",
   "version": "0.0.1",
+  "publisher": "4skl",
+  "icon": "media/icon.webp",
   "repository": {
     "type": "git",
     "url": "https://github.com/4skl/animeholdingbooks.git"
