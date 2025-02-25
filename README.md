@@ -4,8 +4,10 @@
 
 ## Features
 
-- Fetch a random image from the repository.
-- Fetch a random image from a specific category.
+- Fetch a random image from the repository.  
+  ╘═ Command Palette `Show a random picture`
+- Fetch a random image from a specific category.  
+  ╘═ Command Palette `Show a random picture from a category`
 - Display the image in a VS Code webview panel.
 - Refresh the image with a button click.
 
