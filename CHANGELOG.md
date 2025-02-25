@@ -4,8 +4,6 @@ All notable changes to the "animeholdingbooks" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
-
 ## [0.0.2] - 2025-02-25
 ### Changed
 - Updated README with additional usage instructions.

@@ -26,7 +26,11 @@ This extension does not contribute any settings.
 
 ## Release Notes
 
-### 1.0.0
+### 0.0.2
+
+Updated README with additional usage instructions.
+
+### 0.0.1
 
 Initial release of animeholdingbooks.
 
